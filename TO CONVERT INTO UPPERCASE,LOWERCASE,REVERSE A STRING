@@ -6,7 +6,6 @@ int main()
     char str1[100]="SRI VARDHAN";
     char str2[100]="sri vardhan";
     scanf("%s", str);
-
     strupr(str1);
     strlwr(str2);
     strrev(str3);
