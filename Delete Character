@@ -4,9 +4,7 @@ int main(){
     int pos,i;
     gets(str);
     scanf("%d",&pos);
-
     for(i=pos;str[i]!='\0';i++)
-        str[i]=str[i+1];
-
+    str[i]=str[i+1];
     printf("%s",str);
 }
