@@ -15,6 +15,5 @@ void main()
     if (temp==1)
     printf("magic number");
     else
-    printf("not magic number");
-    
+    printf("not magic number")
 }
