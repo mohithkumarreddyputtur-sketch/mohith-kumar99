@@ -2,7 +2,6 @@
 int main(){
     char str[100];
     int pos,i;
-
     gets(str);
     scanf("%d",&pos);
 
