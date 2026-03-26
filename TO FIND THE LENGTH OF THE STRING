@@ -6,10 +6,7 @@ int main()
     int length;
     printf("Enter a string: ");
     scanf("%s", str);
-
     length = strlen(str);
-
     printf("Length of the string = %d", length);
-
     return 0;
 }
