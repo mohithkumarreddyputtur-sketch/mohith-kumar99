@@ -19,8 +19,7 @@ int main()
         i--;
     }
     rev[j] = '\0';
-
-    printf("Reversed string: %s", rev);
+   printf("Reversed string: %s", rev);
 
     return 0;
 }
