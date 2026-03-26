@@ -3,7 +3,6 @@ int main()
 {
     char str[200];
     int i, count = 1;
-
     printf("Enter a sentence: ");
     fgets(str, sizeof(str), stdin);
 
