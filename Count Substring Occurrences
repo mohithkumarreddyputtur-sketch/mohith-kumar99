@@ -4,16 +4,12 @@ int main(){
     char str[100],sub[50];
     int count=0;
     char *pos;
-
     gets(str);
     gets(sub);
-
     pos=strstr(str,sub);
-
     while(pos!=NULL){
-        count++;
-        pos=strstr(pos+1,sub);
+    count++;
+   pos=strstr(pos+1,sub);
     }
-
     printf("%d",count);
 }
