@@ -12,6 +12,5 @@ int main()
     printf("Uppercase string: %s\n", str1);
     printf("Lowercase string: %s\n", str2);
     printf("Reversed string: %s", str3);
-
     return 0;
 }
