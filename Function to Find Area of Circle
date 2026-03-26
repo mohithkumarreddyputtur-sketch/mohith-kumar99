@@ -1,6 +1,5 @@
 #include<stdio.h>
 #define PI 3.14
-
 float area(int r)
 {
     return PI*r*r;
