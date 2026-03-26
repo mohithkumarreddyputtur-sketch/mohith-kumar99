@@ -4,7 +4,6 @@ int main()
 {
     char str[100]="VARDHAN";
     int length;
-
     printf("Enter a string: ");
     scanf("%s", str);
 
